@@ -6,3 +6,4 @@ before(async function() {
     await authHelper.login(process.env.LOGIN, process.env.PASSWORD)
             process.env['TOKEN'] = authHelper.response.body.token
 })
+
